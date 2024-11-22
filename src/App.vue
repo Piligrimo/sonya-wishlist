@@ -82,6 +82,7 @@ export default {
 
 <style>
 body {
+  background-color: #e6c9ff;
   background-image: url(./assets/sonya.png);
   background-position-x: center;
   background-size: 150px;
