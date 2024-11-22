@@ -73,7 +73,7 @@ export default {
   },
   mounted() {
     this.getWishes() 
-    if (window.location.pathname === '/adminsonya') {
+    if (window.location.search === '?admin=sonya') {
       this.isAdmin =  true
     }
   }
